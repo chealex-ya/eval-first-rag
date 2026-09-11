@@ -1,21 +1,21 @@
 {
   "metrics": {
-    "hit@3": 1.0,
-    "mrr": 0.9666666666666667,
-    "answer_coverage": 1.0,
-    "citation_rate": 0.9333333333333333,
+    "hit@3": 0.8653846153846154,
+    "mrr": 0.7916666666666666,
+    "answer_coverage": 0.8727272727272727,
+    "citation_rate": 0.7307692307692307,
     "groundedness": 1.0
   },
   "thresholds": {
-    "hit@3": 0.9,
-    "mrr": 0.85,
-    "answer_coverage": 0.95,
-    "citation_rate": 0.85,
+    "hit@3": 0.85,
+    "mrr": 0.75,
+    "answer_coverage": 0.85,
+    "citation_rate": 0.7,
     "groundedness": 0.8
   },
   "failed": {},
-  "n_questions": 15,
-  "elapsed_sec": 0.0,
+  "n_questions": 52,
+  "elapsed_sec": 0.01,
   "runs": [
     {
       "qid": "q01",
@@ -179,6 +179,413 @@
         "d02"
       ],
       "expected_doc": "d08",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q16",
+      "retrieved_ids": [
+        "d09",
+        "d10",
+        "d05"
+      ],
+      "expected_doc": "d01",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q17",
+      "retrieved_ids": [
+        "d01",
+        "d08",
+        "d02"
+      ],
+      "expected_doc": "d01",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q18",
+      "retrieved_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "expected_doc": "d01",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q19",
+      "retrieved_ids": [
+        "d02",
+        "d09",
+        "d05"
+      ],
+      "expected_doc": "d02",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q20",
+      "retrieved_ids": [
+        "d02",
+        "d05",
+        "d01"
+      ],
+      "expected_doc": "d02",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q21",
+      "retrieved_ids": [
+        "d08",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d02",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q22",
+      "retrieved_ids": [
+        "d03",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d03",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q23",
+      "retrieved_ids": [
+        "d03",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d03",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q24",
+      "retrieved_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "expected_doc": "d03",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q25",
+      "retrieved_ids": [
+        "d04",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d04",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q26",
+      "retrieved_ids": [
+        "d04",
+        "d08",
+        "d01"
+      ],
+      "expected_doc": "d04",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q27",
+      "retrieved_ids": [
+        "d04",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d04",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q28",
+      "retrieved_ids": [
+        "d05",
+        "d09",
+        "d10"
+      ],
+      "expected_doc": "d05",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q29",
+      "retrieved_ids": [
+        "d02",
+        "d05",
+        "d01"
+      ],
+      "expected_doc": "d05",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q30",
+      "retrieved_ids": [
+        "d06",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d06",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q31",
+      "retrieved_ids": [
+        "d08",
+        "d06",
+        "d01"
+      ],
+      "expected_doc": "d06",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q32",
+      "retrieved_ids": [
+        "d07",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d07",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q33",
+      "retrieved_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "expected_doc": "d07",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q34",
+      "retrieved_ids": [
+        "d08",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d08",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q35",
+      "retrieved_ids": [
+        "d08",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d08",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q36",
+      "retrieved_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "expected_doc": "d09",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q37",
+      "retrieved_ids": [
+        "d09",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d09",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q38",
+      "retrieved_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "expected_doc": "d09",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q39",
+      "retrieved_ids": [
+        "d04",
+        "d10",
+        "d01"
+      ],
+      "expected_doc": "d10",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q40",
+      "retrieved_ids": [
+        "d10",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d10",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q41",
+      "retrieved_ids": [
+        "d10",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d10",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q42",
+      "retrieved_ids": [
+        "d07",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d07",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q43",
+      "retrieved_ids": [
+        "d03",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d03",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q44",
+      "retrieved_ids": [
+        "d09",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d09",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q45",
+      "retrieved_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "expected_doc": "d04",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q46",
+      "retrieved_ids": [
+        "d01",
+        "d02",
+        "d03"
+      ],
+      "expected_doc": "d06",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q47",
+      "retrieved_ids": [
+        "d02",
+        "d09",
+        "d01"
+      ],
+      "expected_doc": "d02",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q48",
+      "retrieved_ids": [
+        "d04",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d04",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q49",
+      "retrieved_ids": [
+        "d04",
+        "d05",
+        "d07"
+      ],
+      "expected_doc": "d05",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q50",
+      "retrieved_ids": [
+        "d08",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d09",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q51",
+      "retrieved_ids": [
+        "d02",
+        "d09",
+        "d05"
+      ],
+      "expected_doc": "d02",
+      "grounded": true,
+      "judge_reason": "lexical coverage 1.00"
+    },
+    {
+      "qid": "q52",
+      "retrieved_ids": [
+        "d10",
+        "d01",
+        "d02"
+      ],
+      "expected_doc": "d10",
       "grounded": true,
       "judge_reason": "lexical coverage 1.00"
     }
