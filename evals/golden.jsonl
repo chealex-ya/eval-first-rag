@@ -1,0 +1,15 @@
+{"qid": "q01", "question": "сколько можно переводить с карты на другие банки в сутки", "expected_doc": "d01", "must_contain": ["10 млн", "сутки"]}
+{"qid": "q02", "question": "беру рассрочку на 9 месяцев какая комиссия", "expected_doc": "d02", "must_contain": ["2,5%"]}
+{"qid": "q03", "question": "антифрод заблокировал операцию что делать", "expected_doc": "d03", "must_contain": ["селфи"]}
+{"qid": "q04", "question": "как выбрать повышенный кэшбэк категорию", "expected_doc": "d04", "must_contain": ["до 5 числа"]}
+{"qid": "q05", "question": "можно ли пополнить депозит после открытия", "expected_doc": "d05", "must_contain": ["30 дней"]}
+{"qid": "q06", "question": "потерял телефон как войти в приложение банка", "expected_doc": "d06", "must_contain": ["сим-карту", "поддержку"]}
+{"qid": "q07", "question": "за сколько доставят заказ в Ташкент срочно", "expected_doc": "d07", "must_contain": ["1-2 часа"]}
+{"qid": "q08", "question": "в течение какого срока можно вернуть покупку", "expected_doc": "d08", "must_contain": ["14 дней"]}
+{"qid": "q09", "question": "что будет если просрочить микрозайм", "expected_doc": "d09", "must_contain": ["0,5%", "кредитное бюро"]}
+{"qid": "q10", "question": "сколько стоит обслуживание счета ип для бизнеса", "expected_doc": "d10", "must_contain": ["50 тыс"]}
+{"qid": "q11", "question": "лимит переводов в месяц на карты других банков", "expected_doc": "d01", "must_contain": ["70 млн"]}
+{"qid": "q12", "question": "кэшбэк когда начисляется после покупки", "expected_doc": "d04", "must_contain": ["3 рабочих дней"]}
+{"qid": "q13", "question": "как открыть депозит онлайн и какая минимальная сумма", "expected_doc": "d05", "must_contain": ["100 тыс"]}
+{"qid": "q14", "question": "когда приедет заказ в отдаленный район", "expected_doc": "d07", "must_contain": ["5 дней"]}
+{"qid": "q15", "question": "возвращают ли деньги за товар и как быстро", "expected_doc": "d08", "must_contain": ["3-7"]}
